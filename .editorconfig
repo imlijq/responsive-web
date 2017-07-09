@@ -1,0 +1,15 @@
+# editorconfig.org
+# 没有指定的属性使用编辑器的配置
+
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space # 缩进风格为空格
+insert_final_newline = true # 每一个文件以空白行结尾
+trim_trailing_whitespace = true # 去除换行行首的任意字符
+
+[*.md]
+trim_trailing_whitespace = false # md文件不去除换行行首的字符
+

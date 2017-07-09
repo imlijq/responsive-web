@@ -1,0 +1,16 @@
+{
+    "search.exclude": {
+        "*~": true,
+        ".DS_Store": true,
+        ".idea": true,
+        "node_modules": true,
+        "dist": true
+    },
+    "files.exclude": {
+        "*~": true,
+        ".DS_Store": true,
+        ".idea": true,
+        "node_modules": true,
+        "dist": true
+    }
+}
