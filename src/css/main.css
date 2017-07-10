@@ -370,7 +370,7 @@ header .main ul li a.active {
 .feature .item h3 {
     display: inline-block;
     width: 40%;
-    margin: 0;
+    margin: 0.4rem 0 0;
     padding: 0;
     vertical-align: top;
     font-size: 3.3rem;
@@ -755,6 +755,9 @@ header .main ul li a.active {
 }
 
 @media only screen and (max-width: 30em) {
+    .footer{
+        padding-left: 1.3rem;
+    }
     .footer-content {
         width: 98%;
     }
